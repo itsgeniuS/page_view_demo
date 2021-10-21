@@ -14,7 +14,7 @@ class SignUpPage extends StatefulWidget {
 }
 
 class SignUpPageState extends BaseState<SignUpPage> {
-  SignUpProvider signUpProvider;
+  late SignUpProvider signUpProvider;
   int currentPage = 0;
 
   //create a provider and declare the page controller
